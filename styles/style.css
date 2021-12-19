@@ -103,31 +103,36 @@ body {
 }
 
 .description {
-  position: absolute;
+  
 }
 
 .two-columns {
   border: 1px solid red;
   width: 80%;
-  position: absolute;
-  top: 100px;
-  bottom: 100px;
+  padding: 100px 0;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+h3 {
+  color: #2f80ed;
+  line-height: 1.2px;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .two-columns__brief {
   border: 1px solid red;
   width: 175px;
+  min-height: auto;
 }
 
 .two-columns__main-text {
   border: 1px solid red;
   width: 80%;
   min-width: 784px;
-  line-height: 1.2px;
-  font-size: 18px;
-  font-weight: normal;
 }
 
 .two-columns__paragraph {
