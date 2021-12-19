@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
+  position: relative;
 }
 
 .table__cell_theme_dark {
