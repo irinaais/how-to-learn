@@ -16,7 +16,6 @@ body {
 .header {
   height: 100vh;
   width: 100%;
-  border: 1px solid red;
   min-height: 600px;
   max-height: 756px;
   display: flex; 
@@ -38,7 +37,6 @@ body {
 }
 
 .logo_place_header {
-  border: 1px solid red;
   z-index: 4;
   width: 183px;
   height: 32px;
@@ -48,7 +46,6 @@ body {
 }
 
 .header__title {
-  border: 1px solid red;
   z-index: 2;
   width: 730px;
   align-items: center;
@@ -60,7 +57,6 @@ body {
 }
 
 .header__subtitle {
-  border: 1px solid red;
   z-index: 3;
   width: 388px;
   line-height: 25px;
@@ -78,7 +74,6 @@ body {
 }
 
 .header__main-illustration {
-  border: 1px solid red;
   z-index: 1;
   width: 765px;
   height: 608px;
@@ -91,14 +86,12 @@ body {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  border: 1px solid red;
   position: absolute;
   top: 64px;
   right: 0;
 }
 
 .content {
-  border: 1px solid red;
   position: relative;
 }
 
@@ -108,7 +101,6 @@ body {
 }
 
 .two-columns {
-  border: 1px solid red;
   width: 80%;
   padding: 100px 0;
   align-items: center;
@@ -126,26 +118,22 @@ h3 {
 }
 
 .two-columns__brief {
-  border: 1px solid red;
   width: 175px;
-  min-height: auto;
+  height: 100%;
 }
 
 .two-columns__main-text {
-  border: 1px solid red;
   width: 80%;
   min-width: 784px;
 }
 
 .two-columns__paragraph {
-  border: 1px solid red;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
 .two-columns__small-paragraph {
-  border: 1px solid red;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -153,7 +141,6 @@ h3 {
 }
 
 .two-columns__span-accent {
-  border: 1px solid red;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
