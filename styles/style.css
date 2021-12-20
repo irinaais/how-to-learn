@@ -158,10 +158,10 @@ h3 {
   font-size: 60px;
   font-weight: bold;
   text-align: center;
-  padding-top: 100px;
   margin: 0;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  align-self: center;*/
+  /* text-align: center;  */
 }
 
 .section-subtitle {
@@ -198,7 +198,7 @@ h3 {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin: 0;
+  margin: auto;
 }
 
 .table__text {
@@ -212,4 +212,44 @@ h3 {
 .table__text_bank {
   border: 1px solid red;
   margin: 20px auto 0;
+}
+
+.feynman {
+  border: 1px solid red;
+  height: 890px;
+  width: auto;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  border: 1px solid red;
+  margin: 100px auto auto;
+  width: 648px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  border: 1px solid red;
+  margin: 70px auto auto;
+  width: auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  border: 1px solid red;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
 }
