@@ -220,6 +220,7 @@ h3 {
   width: auto;
   position: relative;
   background-color: #f2f2f2;
+  z-index: 0;
 }
 
 .feynman__title {
@@ -230,6 +231,7 @@ h3 {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  z-index: 0;
 }
 
 .feynman__subtitle {
@@ -240,6 +242,7 @@ h3 {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  z-index: 0;
 }
 
 .feynman__link {
@@ -252,4 +255,14 @@ h3 {
   position: absolute;
   top: 50%;
   right: 48px;
+}
+
+.feynman__img {
+  border: 1px solid red;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 867px;
+  height: 637px;
+  z-index: -1;
 }
