@@ -147,12 +147,10 @@ h3 {
 }
 
 .digits {
-  border: 1px solid red;
   padding: 100px 0;
 }
 
 .section-title {
-  border: 1px solid red;
   width: 60%;
   line-height: 1.15;
   font-size: 60px;
@@ -162,8 +160,6 @@ h3 {
 }
 
 .section-subtitle {
-  border: 1px solid red;
-  /* padding-top: 20px; */
   width: 60%;
   line-height: 34px;
   font-size: 24px;
@@ -173,26 +169,20 @@ h3 {
 }
 
 .table {
-  border: 1px solid red;
   width: 1100px;
-  /* padding: 60px 0 0; */
   display: flex;
   align-items: flex-start;
-  /* flex-direction: row; */
   justify-content: space-between;
   flex-wrap: wrap;
-  /* align-content: stretch; */
   margin: auto;
 }
 
 .table__cell {
-  border: 1px solid red;
   width: 250px;
   margin: 60px 0 0;
 }
 
 .table__heading {
-  border: 1px solid red;
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
@@ -201,7 +191,6 @@ h3 {
 }
 
 .table__text {
-  border: 1px solid red;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -209,12 +198,10 @@ h3 {
 }
 
 .table__text_bank {
-  border: 1px solid red;
   margin: 20px auto 0;
 }
 
 .feynman {
-  border: 1px solid red;
   height: 890px;
   width: auto;
   position: relative;
@@ -224,7 +211,6 @@ h3 {
 }
 
 .feynman__title {
-  border: 1px solid red;
   margin: 100px auto auto;
   width: 648px;
   text-align: center;
@@ -235,7 +221,6 @@ h3 {
 }
 
 .feynman__subtitle {
-  border: 1px solid red;
   margin: 70px auto auto;
   width: auto;
   text-align: center;
@@ -247,7 +232,6 @@ h3 {
 }
 
 .feynman__link {
-  border: 1px solid red;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -259,11 +243,48 @@ h3 {
 }
 
 .feynman__img {
-  border: 1px solid red;
   position: absolute;
   left: 0;
   bottom: 0;
   width: 867px;
   height: 637px;
   z-index: -1;
+}
+
+.kaufman {
+  border: 1px solid red;
+  background-color: #000
+}
+
+.section-title_theme_dark {
+  border: 1px solid red;
+  color: white;
+  margin: 90px auto auto;
+}
+
+.section-subtitle_theme_dark {
+  border: 1px solid red;
+  color: white;
+}
+
+.table_theme_dark {
+  border: 1px solid red;
+  color: white;
+}
+
+.table__cell_theme_dark {
+  border: 1px solid red;
+  color: white;
+  margin: 80px 0 0;
+  width: 200px;
+}
+
+.table__heading_theme_dark {
+  border: 1px solid red;
+  color: white;
+}
+
+.table__text_theme_dark {
+  border: 1px solid red;
+  color: white;
 }
