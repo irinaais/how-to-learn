@@ -58,7 +58,7 @@
   margin: 0;
 }
 
-.link {
+.header__link {
   color: #2f80ed;
   text-decoration: none;
 }
@@ -187,8 +187,8 @@
   margin: 0;
 }
 
-.table__text_bank {
-  margin: 20px auto 0;
+.table__text:first-of-type {
+  padding-bottom: 20px;
 }
 
 .feynman {
