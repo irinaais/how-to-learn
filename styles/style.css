@@ -88,6 +88,7 @@
 .description {
   display: flex;
   justify-content: center;
+  padding: 0 0 100px 0;
 }
 
 .two-columns {
@@ -137,7 +138,7 @@
 }
 
 .digits {
-  padding: 100px 0;
+  padding: 0 0 100px 0;
 }
 
 .section-title {
@@ -177,7 +178,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  margin: auto;
+  margin: 0 auto 0;
 }
 
 .table__text {
@@ -198,10 +199,11 @@
   background-color: #f2f2f2;
   z-index: 0;
   text-align: center;
+  padding: 100px 0 0;
 }
 
 .feynman__title {
-  margin: 100px auto auto;
+  margin: 0 auto 0;
   width: 648px;
   text-align: center;
   line-height: 1.15;
@@ -211,14 +213,13 @@
 }
 
 .feynman__subtitle {
-  margin: 70px auto auto;
+  margin: 70px auto 0;
   width: auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   z-index: 0;
-  display: inline-block;
 }
 
 .feynman__link {
@@ -245,11 +246,12 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  padding-top: 90px;
 }
 
 .section-title_theme_dark {
   color: white;
-  margin: 90px auto auto;
+  margin: 0 auto 0;
   z-index: 2;
 }
 
