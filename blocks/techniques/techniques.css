@@ -1,0 +1,39 @@
+.techniques {
+    padding: 100px 0 0;
+    width: 80%;
+}
+
+.cards {
+    width: 920px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.cards__item {
+    margin: 0;
+}
+
+.cards__image {
+    padding: 60px 40px 0;
+    width: 160px;
+    height: 160px;
+}
+
+.cards__title {
+    margin: 0;
+    padding-top: 43px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cards__description {
+    margin: 0;
+    padding-top: 16px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}
