@@ -63,7 +63,7 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    transition: opacity 1s linear;
+    transition: opacity 0.25s linear;
   }
 
   .footer__column-link:hover {

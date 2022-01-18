@@ -38,7 +38,7 @@
   .header__link {
     color: #2f80ed;
     text-decoration: none;
-    transition: opacity 1s linear;
+    transition: opacity 0.25s linear;
   }
 
   .header__link:hover {
@@ -61,4 +61,5 @@
     position: absolute;
     top: 64px;
     right: 0;
+    animation: rotation 20s linear infinite;
   }
