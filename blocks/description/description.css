@@ -9,7 +9,6 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     display: flex;
-    border: solid 1px red;
   }
   
   .two-columns__brief {
@@ -19,13 +18,11 @@
     font-size: 18px;
     font-weight: normal;
     margin: 0;
-    border: solid 1px red;
   }
   
   .two-columns__main-text {
     width: 80%;
     min-width: 784px;
-    border: solid 1px red;
   }
   
   .two-columns__paragraph {
@@ -33,17 +30,14 @@
     font-size: 24px;
     font-weight: normal;
     margin: 0;
-    border: solid 1px red;
   }
   
   .two-columns__paragraph:first-of-type {
     margin-bottom: 30px;
-    border: solid 1px red;
   }
   
   .two-columns__paragraph:last-of-type {
     margin-top: 30px;
-    border: solid 1px red;
   }
   
   .two-columns__span-accent {
