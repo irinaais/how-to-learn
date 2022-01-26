@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 100px 0 0;
+  border: 1px red solid;
 }
 
 .two-columns {
@@ -9,6 +10,7 @@
   justify-content: space-between;
   flex-wrap: nowrap;
   display: flex;
+  border: 1px red solid;
 }
 
 .two-columns__brief {
@@ -18,11 +20,13 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0;
+  border: 1px red solid;
 }
 
 .two-columns__main-text {
   width: 80%;
   min-width: 784px;
+  border: 1px red solid;
 }
 
 .two-columns__paragraph {
@@ -30,18 +34,22 @@
   font-size: 24px;
   font-weight: normal;
   margin: 0;
+  border: 1px red solid;
 }
 
 .two-columns__paragraph:first-of-type {
   margin-bottom: 30px;
+  border: 1px red solid;
 }
 
 .two-columns__paragraph:last-of-type {
   margin-top: 30px;
+  border: 1px red solid;
 }
 
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
+  border: 1px red solid;
 }
