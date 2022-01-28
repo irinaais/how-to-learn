@@ -4,4 +4,6 @@
   grid-template-columns: 240px 240px 240px;
   column-gap: 100px;
   margin: 0 auto;
+  list-style: none;
+  padding: 0;
 }
