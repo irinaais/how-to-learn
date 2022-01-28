@@ -6,19 +6,10 @@
   border: 1px red solid;
 }
 
-.two-columns__paragraph:first-of-type {
+.two-columns__paragraph {
   margin-bottom: 30px;
-  border: 1px red solid;
 }
 
-.two-columns__paragraph:last-of-type {
-  margin-top: 30px;
-  border: 1px red solid;
-}
-
-.two-columns__one-paragraph {
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0;
+.two-columns__paragraph:last-child {
+  margin-bottom: 0px;
 }
